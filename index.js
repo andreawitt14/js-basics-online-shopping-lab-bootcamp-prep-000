@@ -50,6 +50,7 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
+  var i = 0;
   do{
     
   }while(item != )
