@@ -51,9 +51,18 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   var i = 0;
-  do{
-    
-  }while(item != )
+  while(item != cart[i] & i < cart.length){
+    i++;
+  }
+  
+  if(i === cart.length - 1){
+    return "That item is not in your cart."
+  }
+  
+  else{
+    cart.splice(i, 1);
+    return cart;
+  }
     
   
 }
